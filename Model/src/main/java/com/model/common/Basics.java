@@ -16,4 +16,43 @@ public class Basics implements Serializable {
     private String modifiedPersonId;
     private String modifiedTime;
 
+    public String getId() {
+        return id;
+    }
+
+    public void setId(String id) {
+        this.id = id;
+    }
+
+    public String getCreatePersonId() {
+        return createPersonId;
+    }
+
+    public void setCreatePersonId(String createPersonId) {
+        this.createPersonId = createPersonId;
+    }
+
+    public String getCreateTime() {
+        return createTime;
+    }
+
+    public void setCreateTime(String createTime) {
+        this.createTime = createTime;
+    }
+
+    public String getModifiedPersonId() {
+        return modifiedPersonId;
+    }
+
+    public void setModifiedPersonId(String modifiedPersonId) {
+        this.modifiedPersonId = modifiedPersonId;
+    }
+
+    public String getModifiedTime() {
+        return modifiedTime;
+    }
+
+    public void setModifiedTime(String modifiedTime) {
+        this.modifiedTime = modifiedTime;
+    }
 }
