@@ -10,6 +10,7 @@ import java.io.Serializable;
  * To change this template use File | Settings | File Templates.
  */
 public class Basics implements Serializable {
+
     private String id;
     private String createPersonId;
     private String createTime;
